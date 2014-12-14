@@ -1,0 +1,14 @@
+name: Custom Bootstrap Theme
+type: theme
+description: 'My Custom bootstrap theme integration'
+package: Custom
+core: 8.x
+libraries:
+  - bootstrap/global
+stylesheets-remove:
+  - normalize.css
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

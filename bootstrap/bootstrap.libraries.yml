@@ -1,0 +1,8 @@
+global:
+  version: VERSION 1.0
+  js:
+    dist/js/bootstrap.min.js: {}
+  css:
+    theme:
+      dist/css/bootstrap.min.css: {}
+      dist/css/bootstrap-theme.min.css: {}
